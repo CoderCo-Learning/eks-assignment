@@ -1,0 +1,23 @@
+.PHONY: all build push scan checkov sonar
+
+build:
+    docker build -t <your-image> .
+
+push:
+    docker push <your-ecr-repo-url>/<your-image>
+
+scan:
+    trivy image <your-ecr-repo-url>/<your-image>
+
+checkov:
+    checkov -d ./terraform
+
+# Terraform commands
+terraform-plan:
+    terraform plan
+
+terraform-apply:
+    terraform apply
+
+terraform-destroy:
+    terraform destroy
