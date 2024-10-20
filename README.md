@@ -1,4 +1,6 @@
-![CoderCo](./images/coderco.jpg)
+<div align="center">
+    <img src="./images/coderco.jpg" alt="CoderCo" width="300"/>
+</div>
 
 # CoderCo Assignment 2 - Cloud Native Adventures (Production Grade EKS Cluster with Ingress and SSL) 🚀
 
