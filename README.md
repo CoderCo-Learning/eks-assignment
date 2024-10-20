@@ -1,4 +1,4 @@
-# CoderCo Assignment 2 - Production Grade EKS Cluster with Ingress and SSL 🚀
+# CoderCo Assignment 2 - Cloud Native Adventures (Production Grade EKS Cluster with Ingress and SSL) 🚀
 
 Your task is to create a production-grade Kubernetes (EKS) cluster on AWS, exposing applications securely with HTTPS. You’ll use key tools like Helm, NGINX Ingress Controller, cert-manager for managing SSL certificates, and externalDNS for syncing DNS records. Optionally, you may integrate ArgoCD for deployment automation.
 
